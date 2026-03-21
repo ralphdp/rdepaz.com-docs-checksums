@@ -542,15 +542,15 @@ finite-dimensional and rigorously defined.
 \subsection{What the Proof Establishes}
 
 The proof chain is:
-\begin{equation*}
+\begin{align*}
   \underbrace{\text{Self-adjointness of } \calA_k}_{\text{trivially true}}
-  \Longrightarrow
-  \underbrace{\re(\lambda) \in \R \text{ for all } \lambda \in \Spec(\calA_k)}_{\text{Lem.\ \ref{lem:real}}}
-  \Longrightarrow
-  \underbrace{|\lambda| \leq 2\sqrt{q} \Rightarrow \re(s) = \tfrac{1}{2}}_{\text{Lem.~\ref{lem:poles_circle}}}
-  \Longrightarrow
+  &\Longrightarrow
+  \underbrace{\re(\lambda) \in \R \text{ for all } \lambda \in \Spec(\calA_k)}_{\text{Lem.\ \ref{lem:real}}} \\
+  &\Longrightarrow
+  \underbrace{|\lambda| \leq 2\sqrt{q} \Rightarrow \re(s) = \tfrac{1}{2}}_{\text{Lem.~\ref{lem:poles_circle}}} \\
+  &\Longrightarrow
   \underbrace{\re(\rho) = \tfrac{1}{2} \text{ for all zeros of } \zeta(s)}_{\text{Thm.~\ref{thm:rh}}}.
-\end{equation*}
+\end{align*}
 
 The logical gap that remains is whether the convergence in
 \Cref{prop:euler_conv} is sufficiently strong to guarantee that the poles
