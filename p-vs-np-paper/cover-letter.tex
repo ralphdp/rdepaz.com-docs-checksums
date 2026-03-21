@@ -1,0 +1,71 @@
+\documentclass[12pt, a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+\signature{Rafael D. De Paz \\ Independent Researcher \\ \texttt{admin@logos.pub}}
+\address{Rafael D. De Paz \\ Independent Researcher \\ \url{https://logos.pub}}
+
+\begin{document}
+\begin{letter}{Editorial Board \\ Journal of the ACM \\ Association for Computing Machinery}
+
+\opening{Dear Editors,}
+
+I am writing to submit the enclosed manuscript, entitled
+
+\begin{center}
+\textbf{``On the Thermodynamic Separation of P and NP: \\
+Computational Irreversibility and the Landauer Barrier,''}
+\end{center}
+
+\noindent for consideration for publication in the \textit{Journal of the ACM}.
+
+\medskip
+
+\textbf{Summary.} The paper introduces a physically grounded framework for
+separating $\mathsf{P}$ from $\mathsf{NP}$ via Landauer's principle and the
+thermodynamic arrow of time. The central contribution is the \emph{Thermodynamic
+Church-Turing Thesis} (TCTT)---the axiom that all physical computers obey
+Landauer's bound---under which $\mathsf{P} \neq \mathsf{NP}$ follows as a
+consequence of the Second Law of Thermodynamics.
+
+\medskip
+
+\textbf{Contributions.} The paper provides:
+\begin{itemize}
+  \item A formal \emph{thermodynamic complexity measure} $\Theta(f,n)$
+    quantifying the irreducible entropy cost of computing $f$.
+  \item A proof that one-way functions exhibit a super-polynomial asymmetry
+    between evaluation and inversion thermodynamic costs.
+  \item A conditional separation $\mathsf{P} \neq \mathsf{NP}$ under the TCTT.
+  \item Explicit evasion of all three known barriers: relativization
+    (Baker-Gill-Solovay), natural proofs (Razborov-Rudich), and algebrization
+    (Aaronson-Wigderson).
+\end{itemize}
+
+\medskip
+
+\textbf{Suggested Reviewers.}
+\begin{enumerate}
+  \item \textbf{Prof. Scott Aaronson} (UT Austin) --- World authority on
+    complexity theory and the physics of computation.
+  \item \textbf{Prof. Russell Impagliazzo} (UC San Diego) --- Author of the
+    ``five worlds'' framework for $\mathsf{P}$ vs $\mathsf{NP}$.
+  \item \textbf{Prof. Avi Wigderson} (IAS Princeton) --- Co-author of the
+    algebrization barrier and expert in derandomization.
+\end{enumerate}
+
+\medskip
+
+This manuscript has not been previously published and is not under consideration
+at any other journal. I confirm no conflicts of interest.
+
+\closing{Respectfully submitted,}
+\end{letter}
+\end{document}
