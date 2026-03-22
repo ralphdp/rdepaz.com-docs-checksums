@@ -1,6 +1,6 @@
 # Free Will as Computational Necessity: A Language-Theoretic and Concurrency-Control Proof
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 This is the formal, peer-reviewable academic translation of the architectural proofs

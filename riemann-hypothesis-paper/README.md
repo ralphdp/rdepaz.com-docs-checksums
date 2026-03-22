@@ -1,6 +1,6 @@
 # The Riemann Hypothesis: Spectral Interpretation via Self-Adjoint Operators
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Approach
 The Hilbert-Pólya conjecture proposes that the non-trivial zeros of the

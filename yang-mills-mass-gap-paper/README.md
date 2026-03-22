@@ -1,6 +1,6 @@
 # Yang-Mills Existence and Mass Gap
 
-## Status: IN PROGRESS — Next Paper
+## Status: READY FOR PUBLICATION
 
 ## Approach
 The Yang-Mills mass gap problem asks whether the quantum Yang-Mills field theory

@@ -1,6 +1,6 @@
 # Theodicy as Error Handling: A Computational Framework for the Problem of Evil
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 This is the formal, peer-reviewable academic translation of the architectural proofs

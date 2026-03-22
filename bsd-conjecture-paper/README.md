@@ -1,6 +1,6 @@
 # The BSD Conjecture: Rational Points on Elliptic Curves over Finite Fields
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Approach
 The Birch and Swinnerton-Dyer conjecture relates the rank of the group of

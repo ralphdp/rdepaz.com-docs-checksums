@@ -1,6 +1,6 @@
 # The Unitary Singularity: A Formal Rejection of the Multiverse via Algorithmic Parsimony
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Uses Kolmogorov complexity, algorithmic information theory, and the Principle

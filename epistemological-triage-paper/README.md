@@ -1,6 +1,6 @@
 # Epistemological Triage: A Bayesian Framework for Extraordinary Claims
 
-## Status: QUEUED (Tier B — Viable)
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Develops a formal Bayesian triage matrix for evaluating extraordinary

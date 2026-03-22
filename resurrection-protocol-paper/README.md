@@ -1,6 +1,6 @@
 # The Resurrection Protocol: Information Conservation Across Biological Terminus Events
 
-## Status: QUEUED (Tier B — Viable)
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Proves that information—including the pattern encoding a conscious agent—

@@ -1,6 +1,6 @@
 # The Multitime Transport Theorem: Physics Derived from 1S+3T Geometry
 
-## Status: QUEUED (Tier B — Viable)
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Derives physical observables from a 1-spatial + 3-temporal dimension

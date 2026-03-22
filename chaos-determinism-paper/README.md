@@ -1,6 +1,6 @@
 # Chaos, Attractors, and Determinism: Local Stochasticity in Globally Deterministic Systems
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Uses nonlinear dynamics, Lyapunov exponents, and strange attractor theory to

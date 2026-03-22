@@ -1,6 +1,6 @@
 # The Hodge Conjecture: Algebraic Cycles on Discrete Kähler Manifolds
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Approach
 The Hodge conjecture asserts that certain cohomology classes on compact

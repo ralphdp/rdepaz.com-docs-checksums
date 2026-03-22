@@ -1,6 +1,6 @@
 # Information-Theoretic Gravity: Proton Mass from Vacuum Geometry and the Emergence of the Schwarzschild Metric
 
-## Status: QUEUED
+## Status: READY FOR PUBLICATION
 
 ## Purpose
 Formalizes the derivation of gravity as an emergent interface cost arising from
