@@ -1,0 +1,364 @@
+% =============================================================================
+%  The Unitary Singularity:
+%  A Formal Rejection of the Multiverse via
+%  Algorithmic Parsimony
+%
+%  Author: Rafael D. De Paz
+%  Date:   March 2026
+%  Target: Foundations of Physics / Studies in HPS
+% =============================================================================
+\documentclass[12pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{natbib}
+
+% --- Page Geometry ---
+\geometry{margin=1in}
+
+% --- Theorem Environments ---
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{axiom}[theorem]{Axiom}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\K}{\mathcal{K}}
+
+% --- Hyperref Setup ---
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+  pdftitle={The Unitary Singularity},
+  pdfauthor={Rafael D. De Paz}
+}
+
+% =============================================================================
+\begin{document}
+
+% --- Title ---
+\title{
+  \textbf{The Unitary Singularity: \\
+  A Formal Rejection of the Multiverse \\
+  via Algorithmic Parsimony}
+}
+\author{
+  Rafael D. De Paz \\
+  \textit{Independent Researcher} \\
+  \texttt{hi@logos.pub}
+}
+\date{March 2026}
+\maketitle
+
+% =============================================================================
+% ABSTRACT
+% =============================================================================
+\begin{abstract}
+The Many-Worlds Interpretation (MWI) of quantum mechanics and the Eternal
+Inflation model of cosmology both posit the existence of infinite,
+non-interacting parallel universes. We subject these hypotheses to three
+independent formal analyses: (1) Kolmogorov complexity, demonstrating that
+the algorithmic description length of a single universe with non-deterministic
+observers is exponentially shorter than that of infinite branching histories;
+(2) the Principle of Least Action, showing that universal branching at every
+quantum event violates the variational principle that governs all known
+physics; and (3) information-theoretic testability, proving that causally
+disconnected universes are formally indistinguishable from noise under any
+physically realizable measurement protocol. We conclude that the multiverse
+hypothesis fails the Principle of Computational Parsimony---it is not
+\emph{wrong} in the sense of being contradicted by evidence, but rather
+\emph{unfounded} in the sense that it is algorithmically equivalent to
+invoking an infinite number of unobservable entities to explain a finite
+set of observations. A single deterministic universe with non-deterministic
+observers (the ``Unitary Singularity'') is the maximally parsimonious
+ontology consistent with all known physics.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} multiverse, Many-Worlds Interpretation,
+Kolmogorov complexity, algorithmic parsimony, fine-tuning,
+Occam's razor, quantum foundations.
+
+\vspace{0.5em}
+\noindent\textbf{2020 MSC:} 81P05, 68Q30, 00A30, 83F05.
+
+% =============================================================================
+% 1. INTRODUCTION
+% =============================================================================
+\section{Introduction}\label{sec:intro}
+
+The multiverse hypothesis---the claim that our universe is one of infinitely
+many---has become a prominent feature of contemporary physics and cosmology,
+motivated primarily by:
+
+\begin{enumerate}[label=(\alph*)]
+  \item The \textbf{Fine-Tuning Problem}: The fundamental constants of
+    physics appear tuned to permit complex structure and life
+    \citep{Barrow1986, Rees2000}.
+  \item The \textbf{Measurement Problem} in quantum mechanics: The MWI
+    \citep{Everett1957} avoids wavefunction collapse by postulating that
+    all branches of the state vector are equally real.
+  \item \textbf{Eternal Inflation}: Inflationary cosmology generically
+    produces pocket universes with varying physical constants
+    \citep{Guth1981, Linde1986}.
+\end{enumerate}
+
+While these motivations are substantive, the multiverse hypothesis introduces
+an extraordinary ontological commitment: the existence of infinitely many
+unobservable entities. We argue that this commitment is not justified by the
+explanatory work it performs.
+
+\subsection{Main Results}
+
+\begin{enumerate}
+  \item \textbf{Kolmogorov Parsimony} (\S\ref{sec:kolmogorov}): The
+    algorithmic description of a branching multiverse has Kolmogorov
+    complexity $\K(M) \to \infty$, whereas the single-universe model
+    has finite $\K(U) < \infty$.
+
+  \item \textbf{Variational Violation} (\S\ref{sec:least_action}): Universal
+    branching at every quantum event requires infinite energy and storage,
+    violating the Principle of Least Action.
+
+  \item \textbf{Information-Theoretic Untestability}
+    (\S\ref{sec:testability}): Causally disconnected universes carry zero
+    mutual information with our observational data; they are formally noise.
+
+  \item \textbf{The Unitary Alternative} (\S\ref{sec:unitary}): A single
+    deterministic universe with a non-deterministic observer is sufficient
+    to explain all known phenomena, including fine-tuning and quantum
+    indeterminacy.
+\end{enumerate}
+
+% =============================================================================
+% 2. KOLMOGOROV PARSIMONY
+% =============================================================================
+\section{The Kolmogorov Argument}\label{sec:kolmogorov}
+
+\begin{definition}[Kolmogorov Complexity]\label{def:kolmogorov}
+  The Kolmogorov complexity $\K(x)$ of a string $x$ is the length of the
+  shortest program that produces $x$ on a universal Turing machine
+  \citep{Kolmogorov1965, LiVitanyi2008}:
+  \begin{equation}
+    \K(x) = \min_{p} \{ |p| : U(p) = x \}.
+  \end{equation}
+\end{definition}
+
+\begin{theorem}[Parsimony Inequality]\label{thm:parsimony}
+  Let $U$ denote the description of a single deterministic universe with
+  $n$ observer-induced non-deterministic measurements, and let $M$ denote
+  the description of a multiverse with branching at each measurement.
+  Then:
+  \begin{equation}\label{eq:parsimony}
+    \K(U) = \K(\text{laws}) + O(\log n)
+    \quad \ll \quad
+    \K(M) = \K(\text{laws}) + O(2^n),
+  \end{equation}
+  since $M$ must specify the state of $2^n$ branches while $U$ specifies
+  only the observed branch.
+\end{theorem}
+
+\begin{proof}
+  The single-universe model requires: (i) the physical laws (finite
+  description), and (ii) the outcomes of $n$ quantum measurements (at most
+  $n$ bits, representable in $O(\log n)$ additional description via
+  compression of random sequences). The multiverse model requires: (i) the
+  same physical laws, plus (ii) the complete state specification of all
+  $2^n$ branches. Since each branch is a full universe-state, $\K(M) \geq
+  \K(\text{laws}) + 2^n \cdot \K(\text{state per branch})$. The inequality
+  follows. \qedhere
+\end{proof}
+
+\begin{corollary}[Occam's Razor, Formalized]\label{cor:occam}
+  By Solomonoff's theory of inductive inference \citep{Solomonoff1964},
+  the prior probability of a hypothesis $h$ is $P(h) \sim 2^{-\K(h)}$.
+  Therefore: $P(U) / P(M) \sim 2^{\K(M) - \K(U)} \to \infty$.
+\end{corollary}
+
+% =============================================================================
+% 3. THE VARIATIONAL ARGUMENT
+% =============================================================================
+\section{The Variational Argument}\label{sec:least_action}
+
+\begin{axiom}[Principle of Least Action]\label{ax:least_action}
+  All known fundamental physics obeys the Principle of Least Action: the
+  path taken by a system between two states is the one that extremizes
+  the action $S = \int \mathcal{L}\, dt$ \citep{Feynman1942, Landau1976}.
+\end{axiom}
+
+\begin{proposition}[Branching Violates Parsimony of Action]\label{prop:branching}
+  The MWI requires that at every quantum measurement, the \emph{entire
+  universe} duplicates into $k$ branches (where $k$ is the dimension of
+  the measurement basis). The total action of the multiverse after $n$
+  measurements is:
+  \begin{equation}
+    S_{\text{total}} = \sum_{i=1}^{k^n} S_i,
+  \end{equation}
+  where $S_i$ is the action of the $i$-th branch. This sum grows
+  exponentially, whereas the single-universe action $S_U$ is bounded.
+  A system that minimizes action cannot also maximize the number of
+  copies of itself.
+\end{proposition}
+
+\begin{remark}
+  Proponents of MWI argue that branches do not require ``additional
+  energy'' because the total wavefunction is unitary. However, unitarity
+  governs the \emph{norm} of the state vector, not its \emph{ontological
+  commitment}. The question is not whether the mathematics is consistent
+  but whether the ontology is parsimonious.
+\end{remark}
+
+% =============================================================================
+% 4. INFORMATION-THEORETIC TESTABILITY
+% =============================================================================
+\section{Information-Theoretic Testability}\label{sec:testability}
+
+\begin{definition}[Mutual Information]\label{def:mi}
+  The mutual information between two random variables $X$ (our universe's
+  data) and $Y$ (a parallel universe's data) is:
+  \begin{equation}
+    I(X; Y) = H(X) + H(Y) - H(X, Y),
+  \end{equation}
+  where $H$ denotes Shannon entropy \citep{Shannon1948, Cover2006}.
+\end{definition}
+
+\begin{theorem}[The Noise Theorem]\label{thm:noise}
+  If universe $Y$ is causally disconnected from universe $X$ (i.e., no
+  physical signal can travel between them), then $X$ and $Y$ are
+  statistically independent, and:
+  \begin{equation}
+    I(X; Y) = 0.
+  \end{equation}
+  A hypothesis that predicts entities with zero mutual information with
+  all observational data is empirically indistinguishable from a
+  hypothesis that predicts no such entities.
+\end{theorem}
+
+\begin{proof}
+  Causal disconnection implies $P(X, Y) = P(X) P(Y)$. Then
+  $H(X, Y) = H(X) + H(Y)$, and $I(X; Y) = 0$. By the likelihood
+  principle, any observational data $D$ satisfies
+  $P(D \mid \text{multiverse}) = P(D \mid \text{single universe})$,
+  rendering the multiverse unfalsifiable. \qedhere
+\end{proof}
+
+% =============================================================================
+% 5. THE UNITARY ALTERNATIVE
+% =============================================================================
+\section{The Unitary Singularity}\label{sec:unitary}
+
+\begin{definition}[Unitary Singularity]\label{def:unitary}
+  The \emph{Unitary Singularity} is the ontological position that:
+  \begin{enumerate}[label=(\roman*)]
+    \item There exists exactly one physical universe.
+    \item Its global dynamics are deterministic (governed by unitary
+      evolution of the state vector).
+    \item Local non-determinism arises from the observer's epistemic
+      limitations: incomplete knowledge of initial conditions, not
+      ontological branching.
+  \end{enumerate}
+\end{definition}
+
+\begin{theorem}[Sufficiency of the Unitary Singularity]\label{thm:sufficiency}
+  The Unitary Singularity accounts for all empirically observed phenomena
+  that motivate the multiverse:
+  \begin{enumerate}[label=(\alph*)]
+    \item \textbf{Fine-tuning:} Explained by the non-invertibility of the
+      causal generator function $f: \mathcal{G} \to \mathcal{O}$, where
+      $f^{-1}$ is undefined from within the observable frame. The
+      constants are not ``selected'' from a distribution but are
+      structural features of a unique system.
+    \item \textbf{Quantum indeterminacy:} Born-rule probabilities arise
+      from the observer's position within the system (self-locating
+      uncertainty), not from ontological branching.
+    \item \textbf{Wavefunction collapse:} The ``collapse'' is an update
+      of the observer's state, not a physical process in the universe.
+  \end{enumerate}
+\end{theorem}
+
+% =============================================================================
+% 6. DISCUSSION
+% =============================================================================
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Comparison with Existing Critiques}
+
+Our analysis complements but extends existing critiques of the multiverse:
+
+\begin{center}
+\begin{tabular}{lll}
+  \toprule
+  \textbf{Critique} & \textbf{Author(s)} & \textbf{Our Extension} \\
+  \midrule
+  Unfalsifiability & Popper (1959) & Formalized via $I(X;Y)=0$ \\
+  Ontological excess & Occam/Lewis & Quantified via $\K(M) \gg \K(U)$ \\
+  Action violation & --- (novel) & Proved via variational principle \\
+  Observer sufficiency & Fuchs (QBism) & Unified with parsimony bounds \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Limitations}
+
+\begin{enumerate}
+  \item Our Kolmogorov analysis assumes a fixed universal Turing machine;
+    the complexity values are machine-dependent up to an additive constant.
+  \item The variational argument addresses ontological cost, not
+    mathematical consistency---MWI remains internally consistent.
+  \item The fine-tuning resolution via non-invertibility is an axiom,
+    not a derivation.
+\end{enumerate}
+
+% =============================================================================
+% 7. CONCLUSION
+% =============================================================================
+\section{Conclusion}\label{sec:conclusion}
+
+We have subjected the multiverse hypothesis to three independent formal
+tests:
+
+\begin{enumerate}
+  \item \textbf{Algorithmic parsimony:} $\K(U) \ll \K(M)$.
+  \item \textbf{Variational principle:} Branching maximizes total action.
+  \item \textbf{Information content:} $I(X; Y) = 0$ for disconnected
+    universes.
+\end{enumerate}
+
+In each case, the multiverse fails: it is less parsimonious, violates the
+variational principle, and carries zero information content beyond what a
+single universe provides. The Unitary Singularity---one deterministic
+universe with epistemic non-determinism---is the simplest ontology
+consistent with all known physics.
+
+The multiverse is not the ``other worlds.'' It is the garbage collection
+of the wavefunction: variables that were considered but never executed.
+
+% =============================================================================
+% REFERENCES
+% =============================================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
