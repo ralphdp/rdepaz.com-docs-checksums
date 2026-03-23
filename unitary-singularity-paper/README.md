@@ -21,3 +21,12 @@ infinite parallel branches.
 
 ## Author
 Rafael D. De Paz
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `fbbf2c7f9a8cc00a46225074f005e767bc80a0db5c27dccfd869f223fac8b0b9`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unitary-singularity-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unitary-singularity-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)

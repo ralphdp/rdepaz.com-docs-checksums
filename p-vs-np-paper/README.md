@@ -28,3 +28,15 @@ pdflatex main.tex
 
 ## Author
 Rafael D. De Paz
+
+## Source Content
+- `p-vs-np-proof.md`
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `94d97f65cbc10ba62d3bc2ac31f02219e24256187cd121083ee169c03a079d3f`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/p-vs-np-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/p-vs-np-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)

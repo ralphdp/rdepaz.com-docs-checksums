@@ -20,3 +20,12 @@ achieving 0.01% agreement with CODATA 2018 measurements.
 
 ## Author
 Rafael D. De Paz
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `78a649c3ede6f6d9ff56ec0e35e310a1dc9dc3bf9b5c9669390bed66a4f99b47`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/information-theoretic-gravity-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/information-theoretic-gravity-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)

@@ -24,3 +24,17 @@ agency within a bounded entropy field.
 
 ## Author
 Rafael D. De Paz
+
+## Source Content
+- `theodicy-protocol.md`
+- `error-handling-and-evil-as-recursion.md`
+- `thermodynamic-morality.md`
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `41993637572caa52c9e177ef81de83d3176b94fb475f3288a1a2e99857d37222`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/theodicy-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/theodicy-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)

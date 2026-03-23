@@ -18,3 +18,16 @@ the physically fundamental formulation.
 
 ## Author
 Rafael D. De Paz
+
+## Source Content
+- `logos-kernel.md`
+- `unitary-kernel.md`
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `c22fd483315b9c0bd0d2f967b3207251b933a97e9d1f8e777bebc7aaea784789`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/yang-mills-mass-gap-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/yang-mills-mass-gap-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)

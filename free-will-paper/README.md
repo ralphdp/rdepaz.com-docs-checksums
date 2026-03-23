@@ -23,3 +23,17 @@ system converges to heat death.
 
 ## Author
 Rafael D. De Paz
+
+## Source Content
+- `free-will-paradox.md`
+- `free-will-computational-requirement.md`
+- `divine-concurrency.md`
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `5f0aea986e3b75abb9f78de7fed7fb67b3ff33ec1bafba1c3ff07f8d651f5efc`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/free-will-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/free-will-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
+- **Lineage Authority:** [logos.pub](https://logos.pub)
