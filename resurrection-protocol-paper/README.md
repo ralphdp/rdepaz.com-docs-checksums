@@ -23,7 +23,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `988bccf31abc86624db7fef3af4c8793d46241721a59eedcbabb50bf55f5a0e0`
+- **Integrity Checksum (SHA-256):** `eec13b78dc513667e84b0c6d04c74452cb5546db8c0165429181147985274300`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/resurrection-protocol-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/resurrection-protocol-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
