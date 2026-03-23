@@ -32,7 +32,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `5f0aea986e3b75abb9f78de7fed7fb67b3ff33ec1bafba1c3ff07f8d651f5efc`
+- **Integrity Checksum (SHA-256):** `e4ed37d26f3a9be1defa57cb0345656ce9da14a10b3d8e693446581d89959245`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/free-will-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/free-will-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

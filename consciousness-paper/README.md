@@ -32,7 +32,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `d8baa76a371262ff0ef46448c77dc3db8c9bd50eca191d8ea87d64f9e2922b34`
+- **Integrity Checksum (SHA-256):** `3982a3b87b9db2af1beacce4900a824dc1bb09829a477ee80658e7f5ea877c06`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/consciousness-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/consciousness-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

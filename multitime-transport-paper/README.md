@@ -25,7 +25,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `cbd46109fdb244b38591e62c58b790945fc2a55f93344f9e0b9c524188be01e5`
+- **Integrity Checksum (SHA-256):** `2dbad6850ff0af5d59071ff3790c06e4d81486f041f888952e53e1bce1433321`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/multitime-transport-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/multitime-transport-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

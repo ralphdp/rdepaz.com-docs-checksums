@@ -24,7 +24,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `97a282dd0b923c192296f10aefd02cae072f72cef85d7a82e1bc0542e3d667ce`
+- **Integrity Checksum (SHA-256):** `f8b24c74bb86bbad03cca5fcdb05ce9863491531f058dc8ef3c1fd9e74a1b1dc`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/chaos-determinism-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/chaos-determinism-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
