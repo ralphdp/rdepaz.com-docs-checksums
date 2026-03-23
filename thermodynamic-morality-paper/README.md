@@ -6,7 +6,7 @@
 We present a formal proof establishing the isomorphism between moral law and thermodynamic optimization. By framing behavioral ethics as the minimization of Lagrangian dissipation within a closed sociological frame, we demonstrate that 'Good' is mathematically equivalent to systemic negentropy, and 'Evil' is mathematically equivalent to unrecoverable heat loss (friction) across the collective substrate. This provides a hard physics grounding for ethical imperatives.
 
 ## Source Content
-- `thermodynamic-morality.md (AN-020)`
+- `thermodynamic-morality.md` (AN-020)
 
 ## Target Journals
 1. Entropy (MDPI)

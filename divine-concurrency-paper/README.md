@@ -6,7 +6,7 @@
 We resolve the classical theological paradox between absolute divine sovereignty and libertarian free will by mapping their relationship to Optimistic Concurrency Control (OCC) architecture in distributed databases. We demonstrate that a root administrator can maintain complete deterministic consistency of the master ledger while simultaneously allowing non-deterministic child nodes to independently execute unstructured temporal transactions, reconciling absolute Providence with temporal agency through eventual consistency.
 
 ## Source Content
-- `divine-concurrency.md (AN-038)`
+- `divine-concurrency.md` (AN-038)
 
 ## Target Journals
 1. Religious Studies (Cambridge)

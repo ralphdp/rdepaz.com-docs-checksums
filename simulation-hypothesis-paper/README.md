@@ -6,7 +6,7 @@
 We apply G\"odel's First Incompleteness Theorem and the Turing Halting Problem directly to Nick Bostrom's Simulation Hypothesis. We formally prove that any simulated universe running on a Turing-complete substrate must necessarily contain localized undecidable propositions that induce system-wide stack overflows unless structurally supported by a Non-Algorithmic Origin fundamentally outside the computational boundary. Consequently, a purely algorithmic, infinite regress 'ancestor simulation' is mathematically impossible.
 
 ## Source Content
-- `simulation-hypothesis-audit.md (AN-016)`
+- `simulation-hypothesis-audit.md` (AN-016)
 
 ## Target Journals
 1. Mind (Oxford)
