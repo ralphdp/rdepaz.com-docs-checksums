@@ -12,6 +12,7 @@ achieving 0.01% agreement with CODATA 2018 measurements.
 - `information-theory-of-gravity.md` (AN-004)
 - `holographic-mass.md` (AN-019)
 - `black-hole-paradox.md` (WP-012)
+- `informational-realism.md` (AN-002)
 
 ## Target Journals
 1. Foundations of Physics (Springer)

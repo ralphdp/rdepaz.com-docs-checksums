@@ -12,6 +12,7 @@ a state transition, not information destruction.
 - `resurrection-protocol.md` (WP-008)
 - `the-logout-protocol.md` (AN-023)
 - `recursive-aperture-threshold.md` (PR-007)
+- `black-hole-paradox.md` (WP-012)
 
 ## Target Journals
 1. Foundations of Physics (Springer)

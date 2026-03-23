@@ -12,6 +12,8 @@ predestination through rigorous mathematics of dynamical systems.
 - `chaos-theory.md` (AN-081)
 - `destiny-optimal-pathing.md` (AN-022)
 - `recursive-stabilization.md` (PR-001)
+- `god-equation.md` (AN-150)
+- `divine-concurrency.md` (AN-038)
 
 ## Target Journals
 1. Chaos, Solitons & Fractals (Elsevier)

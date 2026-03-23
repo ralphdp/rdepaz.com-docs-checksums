@@ -13,6 +13,7 @@ infinite parallel branches.
 - `unitary-singularity.md` (WP-009)
 - `unitary-kernel.md` (WP-005)
 - `informational-realism.md` (AN-002)
+- `logos-de-paz-protocol.md` (WP-000)
 
 ## Target Journals
 1. Foundations of Physics (Springer)

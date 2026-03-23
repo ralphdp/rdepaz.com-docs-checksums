@@ -28,6 +28,9 @@ Rafael D. De Paz
 - `consciousness-node.md`
 - `foundations-of-computational-theology.md`
 - `meaning-of-life.md`
+- `quantum-founders-consciousness-engine.md` (AN-017)
+- `recursive-stabilization.md` (PR-001)
+- `recursive-aperture-threshold.md` (PR-007)
 
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.

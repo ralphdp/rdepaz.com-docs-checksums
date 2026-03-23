@@ -29,6 +29,8 @@ Rafael D. De Paz
 - `theodicy-protocol.md`
 - `error-handling-and-evil-as-recursion.md`
 - `thermodynamic-morality.md`
+- `recursive-ascent.md` (WP-011)
+- `algorithmic-purity-of-the-saints.md` (AN-065)
 
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.

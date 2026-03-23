@@ -13,6 +13,11 @@ Using systems & control letters, stochastic optimization, and gradient descent a
 2. Philosophy of Science (Philosophy of Science Association)
 3. Synthese (Springer)
 
+## Source Content
+- `destiny-optimal-pathing.md` (AN-028)
+- `chaos-theory.md` (AN-081)
+- `free-will-computational-requirement.md` (AN-003)
+
 ## Author
 Rafael D. De Paz
 
@@ -20,5 +25,6 @@ Rafael D. De Paz
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
 - **Integrity Checksum (SHA-256):** `1f5e3549dd4f55f739b5fa5327cc1260ae40fc1b36470a48497690799c68b98e`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/stochastic-destiny-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/stochastic-destiny-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
-- **Lineage Authority:** [logos.pub](https://logos.pub)

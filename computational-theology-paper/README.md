@@ -12,6 +12,8 @@ authority, and mapping ethical systems to thermodynamic optimization.
 - `foundations-of-computational-theology.md` (WP-002)
 - `meaning-of-life.md` (WP-006)
 - `logos-kernel.md` (SPEC)
+- `hardware-vs-software.md` (AN-001)
+- `simulation-hypothesis-audit.md` (AN-016)
 
 ## Target Journals
 1. Theology and Science (Routledge)
