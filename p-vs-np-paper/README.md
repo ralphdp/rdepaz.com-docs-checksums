@@ -35,7 +35,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `932cd3ff83957b141e68af4d18dd76724f8aef11b9e73c81faf141293209568c`
+- **Integrity Checksum (SHA-256):** `0e4d5964186ea00ec572773d25d9255606de05dd40bb677fbd3faef8993fa9ee`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/p-vs-np-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/p-vs-np-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

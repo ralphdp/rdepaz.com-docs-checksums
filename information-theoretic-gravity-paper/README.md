@@ -24,7 +24,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `f4d58027d1a6cf0e63aec8a8bd57c7add7df6edcabc7d4d26809c333dcc1ff91`
+- **Integrity Checksum (SHA-256):** `50ff84fda7d2aa03b760a320b96c13c7da3311f1242300dae15fa3617d97eeed`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/information-theoretic-gravity-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/information-theoretic-gravity-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

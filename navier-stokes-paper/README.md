@@ -30,7 +30,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `c5f6a4a1a6776b0d7551dabedd8757604892e4a5534a13b1737890c32ff99fac`
+- **Integrity Checksum (SHA-256):** `f22e8531f7d1ca715c703fee55f86ff099e622a3f40866527f88b5efdcdfba84`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/navier-stokes-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/navier-stokes-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

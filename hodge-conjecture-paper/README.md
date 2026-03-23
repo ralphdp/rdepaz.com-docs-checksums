@@ -23,7 +23,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `2d0aa36e59adfcd270789d1fc98effb9d607fc42f376fc1fbfbb9440d4836069`
+- **Integrity Checksum (SHA-256):** `bb2bf06b979e29d6ef5bd787463ff7a1d6be6506b7896e665bcebd37a75bd977`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/hodge-conjecture-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/hodge-conjecture-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

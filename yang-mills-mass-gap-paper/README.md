@@ -26,7 +26,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `6df74089d896e405f6bda11a391d39092efc57737c812fdd89e227c7cb492e73`
+- **Integrity Checksum (SHA-256):** `c2eb0d4ea5417fbf5b91e4646c1ff2aee1047a39b91cd78c04cf9b9496ef2185`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/yang-mills-mass-gap-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/yang-mills-mass-gap-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

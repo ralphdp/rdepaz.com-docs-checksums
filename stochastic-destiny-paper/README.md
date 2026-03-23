@@ -19,6 +19,6 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `0f86ee534fc77040d31c044b8411a4106eb1f61c59158d1513119918239f793f`
+- **Integrity Checksum (SHA-256):** `1f5e3549dd4f55f739b5fa5327cc1260ae40fc1b36470a48497690799c68b98e`
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
 - **Lineage Authority:** [logos.pub](https://logos.pub)

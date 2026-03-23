@@ -25,7 +25,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `01521ca57e13bbe0c8a7087ae2b4b67fe860ef6cfd201392ca1206a444f7f505`
+- **Integrity Checksum (SHA-256):** `e2a3174667ec67bcbe6b26de2f1b297c35d5c4f17c14f39359650ca7b778cc5e`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unitary-singularity-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unitary-singularity-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

@@ -33,7 +33,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `bcea3706f5d953733d725f361a0d104ce7f16674ee88ca92e9dab8a92b493665`
+- **Integrity Checksum (SHA-256):** `19735f3f6f286496210dfc6162d0979023814824a30c14808f423455dc2c3ffa`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/theodicy-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/theodicy-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
