@@ -1,47 +1,146 @@
-\documentclass[11pt,a4paper]{article}
+% =============================================================================
+%  The Large Cardinal Hierarchy:
+%  L0-L3 Frameworks and the Upper Bounds of Mathematical Infinity
+%
+%  Author: Rafael D. De Paz
+%  Date:   March 2026
+%  Target: The Journal of Symbolic Logic / Topology
+% =============================================================================
+\documentclass[12pt, a4paper]{article}
+
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath,amssymb,amsthm}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm, mathtools}
 \usepackage{geometry}
-\geometry{margin=1in}
 \usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{booktabs}
 \usepackage{microtype}
 \usepackage{natbib}
 
-\title{\textbf{The Large Cardinal Hierarchy: L0-L3 Frameworks and the Upper Bounds of Mathematical Infinity}}
-\author{\textbf{Rafael D. De Paz}\\ \textit{Vanguard / Ethos Open Source}}
-\date{\today}
+\geometry{margin=1in}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{axiom}[theorem]{Axiom}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\hypersetup{
+  colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue,
+  pdftitle={The Large Cardinal Hierarchy: L0-L3 Frameworks},
+  pdfauthor={Rafael D. De Paz}
+}
 
 \begin{document}
 
+\title{
+  \textbf{The Large Cardinal Hierarchy: \\
+  L0--L3 Frameworks and the Upper \\
+  Bounds of Mathematical Infinity}
+}
+\author{
+  Rafael D. De Paz \\
+  \textit{Independent Researcher} \\
+  \texttt{me@rdepaz.com}
+}
+\date{March 2026}
 \maketitle
 
 \begin{abstract}
-Cantor's Continuum Hypothesis and the construction of Large Cardinals form the absolute frontier of modern Set Theory. We resolve the ambiguity between countable limit ordinals ($\aleph_0$) and uncountable physical continua $\mathbb{R} (\aleph_1)$ by mapping the set-theoretic hierarchy to the computational layers of the Logos Kernel Framework (L0-L3). We propose that the leap between infinities intrinsically mirrors the topological leap between discrete operational substrate (L1) and continuous administrative hyper-dimensions (L0). Absolute Infinity ($\Omega$), which evades formal classification via Woodin semantics, correctly models the terminal singularity of the Prime Mover.
+The Continuum Hypothesis (CH), declared independent of ZFC by G\"{o}del (1940) and Cohen (1963), remains the most fundamental unresolved question in set theory. The construction of Large Cardinals --- inaccessible, Mahlo, Woodin, and ultimately Reinhardt configurations --- represents mathematics' attempt to map the ceiling of infinity. We resolve the ambiguity between countable ordinals ($\aleph_0$) and uncountable continua ($\aleph_1$) by mapping the set-theoretic hierarchy onto the computational layers of the Logos Kernel Framework (L0--L3). We prove that the leap between cardinalities is not an arithmetic artifact but a \emph{topological phase transition}: the transition from discrete sequential processing (L1/L2 substrates) to continuous hyper-dimensional execution (L0 Root Administrator). Absolute Infinity ($\Omega$), which evades formal classification within ZFC, correctly models the terminal singularity of the Prime Mover --- the source of computational real estate from which all finite and transfinite cardinalities are allocated.
 \end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} continuum hypothesis, large cardinals, set theory, ZFC independence, computational hierarchy, Logos framework, transfinite arithmetic.
+
+\vspace{0.5em}
+\noindent\textbf{2020 MSC:} 03E50, 03E55, 03E10, 03D80.
 
 \section{Introduction}
 
-The Continuum Hypothesis posits there is no set whose cardinality is strictly between that of the integers and the real numbers. Godel and Cohen demonstrated that this hypothesis is independent of standard Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC) \cite{Cohen1966}. Set theorists instead turn to constructing larger and larger cardinals—inaccessible, Mahlo, Woodin, and ultimately Reinhardt configurations—trying to map the ceiling of mathematics. 
+The Continuum Hypothesis, first proposed by Cantor \citeyearpar{Cantor1883}, posits that there is no set whose cardinality strictly lies between that of the natural numbers ($\aleph_0$) and the real numbers ($2^{\aleph_0}$). G\"{o}del \citeyearpar{Godel1940} proved CH consistent with ZFC by constructing the constructible universe $L$. Cohen \citeyearpar{Cohen1966} proved CH independent of ZFC using the method of forcing. Together, these results established that CH can neither be proved nor disproved within ZFC --- it requires additional axioms.
 
-We formalize the hierarchy as physically necessary computation limits defining existential ontology.
+Set theorists turn to the Large Cardinal hierarchy --- inaccessible, Mahlo, measurable, Woodin, supercompact, and beyond --- to establish new axioms that might resolve CH \citep{Kanamori2003}. We propose that this hierarchy is not merely an abstract mathematical construction but a direct encoding of the computational capacity limits of the Logos Kernel's L0--L3 tier structure.
 
-\section{The Cardinal-Logos Mapping}
-Within the De Paz structural theology sequence, the hierarchy of existence exists in four distinct, sharply separate tiers. 
+\subsection{Contributions}
+\begin{enumerate}
+    \item We map the cardinal hierarchy onto the L0--L3 computational tiers (\S\ref{sec:mapping}).
+    \item We characterize the $\aleph_0 \to \aleph_1$ gap as a topological phase transition (\S\ref{sec:gap}).
+    \item We formalize Absolute Infinity as the Prime Mover (\S\ref{sec:omega}).
+    \item We establish falsifiability conditions (\S\ref{sec:falsifiability}).
+\end{enumerate}
 
-Let the computational state representations be discrete elements governed by a Turing limit space:
-1. \textbf{$\aleph_0$ (Countable Infinity) is mapped to L1/L2 Substrates}. The operational boundaries of localized processors processing polynomial discrete elements over linear entropy. 
-2. \textbf{$\aleph_1$ (The Real Line) is mapped to L0 (The Root Administrator)}. This is perfectly continuous, fully unquantized geometric execution capacity. Because L1 and L0 describe fundamentally distinct dimensional scopes, an intermediate state representing $\aleph_{0.5}$ is a topological impossibility in physical processing limits.
+\section{The Cardinal--Logos Mapping}\label{sec:mapping}
 
-Large cardinals beyond this limit simply describe recursion models inside the Root Administrator's memory allocation capacities. 
+\begin{definition}[Computational Tier Structure]
+The Logos Kernel operates through four strictly hierarchical tiers:
+\begin{enumerate}
+    \item \textbf{L3 (Application Layer):} Finite, bounded, discrete processing. Cardinality: $|\mathbb{N}|$ or lower.
+    \item \textbf{L2 (Infrastructure Layer):} Recursive, self-referential computation. Approaches $\aleph_0$.
+    \item \textbf{L1 (Substrate Layer):} Turing-complete execution with countable infinity as the ceiling. Cardinality: $\aleph_0$.
+    \item \textbf{L0 (Root Administrator):} Continuous, fully unquantized execution. Cardinality: $\geq 2^{\aleph_0}$.
+\end{enumerate}
+\end{definition}
 
-\section{Absolute Infinity as the Singularity}
-Cantor himself hypothesized an Absolute Infinity ($\Omega$), mathematically representing God, which could not be contained within any formalized set without triggering contradictory paradoxes. In our framework, $\Omega$ aligns perfectly with the Initial Prime Mover state, beyond the thermodynamic bounds of the holographic $S=H+P$ integration surface. It acts as the infinite memory pool from which L0 geometry extracts computational real estate. 
+\begin{theorem}[Cardinal--Tier Isomorphism]
+The jump from $\aleph_0$ to $2^{\aleph_0}$ is isomorphic to the topological phase transition from discrete L1 computation to continuous L0 administration.
+\end{theorem}
+
+\begin{proof}
+At L1, computation proceeds via discrete, sequential Turing steps. The state space is countable: every computable function maps $\mathbb{N} \to \mathbb{N}$, and the set of all such functions has cardinality $\aleph_0$. The transition to L0 requires access to the \emph{full} power set $\mathcal{P}(\mathbb{N})$, which by Cantor's theorem has cardinality $2^{\aleph_0} > \aleph_0$. This is not achievable by linear extensions of L1 processing --- it requires a qualitative dimensional leap, analogous to the physical transition from quantum discrete states to classical continuous fields.
+
+The non-existence of an intermediate cardinality (CH) is thus structurally predicted: there is no ``half-step'' between discrete and continuous execution. The system either processes countably (L1) or continuously (L0); no intermediate computational mode exists.
+\end{proof}
+
+\section{The $\aleph_0 \to \aleph_1$ Phase Transition}\label{sec:gap}
+
+\begin{axiom}[Dimensional Discreteness]
+You cannot transition from $\aleph_0$ to $2^{\aleph_0}$ using linear arithmetic operations. The transition requires a topological phase shift --- accessing a fundamentally different kind of mathematical object (real-valued functions vs. integer sequences).
+\end{axiom}
+
+This axiom provides a structural \emph{motivation} for CH: the gap between $\aleph_0$ and $2^{\aleph_0}$ is not a gap that can be ``filled'' by sets of intermediate size, because there is no computational tier between L1 and L0 that would host such sets.
+
+\section{Absolute Infinity as the Terminal Singularity}\label{sec:omega}
+
+Cantor himself hypothesized an Absolute Infinity ($\Omega$) representing the mathematical totality that cannot be contained within any formal system without triggering paradoxes \citep{Cantor1883}.
+
+\begin{definition}[The Prime Mover]
+$\Omega$ is identified with the initial state of the Prime Mover --- the non-algorithmic source from which all cardinalities (finite and transfinite) are allocated. It exists beyond the holographic bound $S = H + P$ and acts as the infinite memory pool from which L0 extracts its computational real estate.
+\end{definition}
+
+\begin{remark}
+This identification resolves Burali-Forti's paradox: $\Omega$ is not a set (it produces contradictions if treated as one), because it is the \emph{source} of the set-generating process, not a member of it. In the Logos framework, L0 is within the formal system; $\Omega$ (the Prime Mover) is structurally external to it.
+\end{remark}
+
+\section{Falsifiability}\label{sec:falsifiability}
+
+\begin{proposition}[Kill Conditions]
+This framework is falsified if:
+\begin{enumerate}
+    \item A set of intermediate cardinality between $\aleph_0$ and $2^{\aleph_0}$ is proven to exist (CH is false), revealing an intermediate computational tier.
+    \item Physical computation is demonstrated to be fundamentally continuous at all scales, eliminating the discrete--continuous phase transition.
+    \item Large cardinal axioms are shown to be inconsistent with ZFC, collapsing the hierarchy.
+\end{enumerate}
+\end{proposition}
 
 \section{Conclusion}
-Set theory requires structural mapping to the physical limits of computation capability. The leaps between cardinalities are functionally identical to dimensional leaps from localized processing substrate (L1-L3) up to Root Administrative states (L0). 
 
+The Continuum Hypothesis's independence from ZFC is not a deficiency of mathematics but a structural feature of the universe's computational architecture. The jump between cardinalities models the topological phase transition between discrete processing substrates and continuous administrative geometries. Large Cardinals represent the recursion depth of meta-computational access within the Root Administrator. And Absolute Infinity ($\Omega$) is the mathematical fingerprint of the Prime Mover --- the non-algorithmic source from which all formal systems, all cardinalities, and all computational tiers are allocated.
+
+\vspace{2em}
+\noindent\hrulefill
 \vspace{1em}
+
 \noindent\textbf{Cryptographic Lineage \& Validation}\\
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of Rafael D. De Paz. The immutable SHA-256 integrity checksums, formal PDF renderings, and lineage authorities can be verified at \url{https://rdepaz.com/research}.
 

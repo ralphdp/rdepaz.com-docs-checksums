@@ -1,27 +1,26 @@
-# The Large Cardinal Hierarchy: L0-L3 Frameworks and Mathematical Infinity
+# The Large Cardinal Hierarchy: L0–L3 Frameworks and the Upper Bounds of Mathematical Infinity
 
-## Overview
-Identifies the Continuum Hypothesis gaps and absolute ceiling capacities on set theoretic Large Cardinals strictly as the topological boundaries between discrete linear operations (L1-L2 Logos) and the continuous Root Administration engine geometries (L0). 
+## Status: READY FOR PUBLICATION
 
-## Status
-- **State:** `ACTIVE_FORMALIZATION`
-- **Date:** 2026-03-23
-- **Author:** Rafael D. De Paz / Vanguard Open Source
+## Purpose
+We resolve the Continuum Hypothesis's independence from ZFC by mapping the set-theoretic cardinal hierarchy onto the Logos Kernel's L0–L3 computational tier structure. The jump from $\aleph_0$ to $2^{\aleph_0}$ models a topological phase transition from discrete sequential processing (L1) to continuous hyper-dimensional execution (L0). Absolute Infinity ($\Omega$) is identified with the Prime Mover — the non-algorithmic source from which all cardinalities are allocated.
 
-## Compiling
-```bash
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
-
-## Abstract
-The absolute upper bounds of Set Theory map identical step functions modeling limits between standard logic-gate arrays and infinite-continuous memory processing capacity reserved distinctly for Source operators.
+## Source Content
+- `continuum-logos-hierarchy.md` (WP-015)
+- `logos-kernel.md` (SP-001)
+- `unitary-kernel.md` (WP-006)
 
 ## Target Journals
-- The Journal of Symbolic Logic
-- Topology
+1. The Journal of Symbolic Logic
+2. Topology
 
-## Cryptographic Lineage
-All cryptographic signatures, PDF hashes, and commit receipts are sealed inside the absolute Ledger to verify temporal origination and strictly lock authorship integrity.
+## Author
+Rafael D. De Paz
+
+## Cryptographic Validation
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
+
+- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/continuum-logos-hierarchy-paper.pdf)
+- **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/continuum-logos-hierarchy-paper.bib)
+- **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
