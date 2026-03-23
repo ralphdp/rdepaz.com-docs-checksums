@@ -20,7 +20,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `a811d6c46d8397950ddaa17c3e9c4082bcaf8bc681eba8da0b21ac1c69128b81`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/invariant-destiny-subspace-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/invariant-destiny-subspace-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

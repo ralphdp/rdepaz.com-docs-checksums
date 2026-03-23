@@ -20,7 +20,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `475b2b39a73e0db98ed64a4ae95dd8a8f6298b7967153b91031f1e87cf6b3309`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/continuum-logos-hierarchy-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/continuum-logos-hierarchy-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

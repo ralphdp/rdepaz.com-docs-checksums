@@ -22,7 +22,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `20c470a18ad2fc48366f1d9069b910d7c8810e7927506524685fbec164c7d3f8`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/discrete-frequency-divider-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/discrete-frequency-divider-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

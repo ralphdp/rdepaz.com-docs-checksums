@@ -22,7 +22,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `773bff8ee484fd70398a444c244fc58ac9aa4cf8370dbcc559402ee3ae4fc8c9`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/gradient-transport-destiny-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/gradient-transport-destiny-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

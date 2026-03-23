@@ -20,7 +20,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `74c639471392d6c6cea30606f5b85922b9bccfaf81874480360e8388229a6522`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/collatz-attractor-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/collatz-attractor-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

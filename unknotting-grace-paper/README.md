@@ -20,7 +20,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `cf3ac0c03d66f78a6a0e7c5bba0a3392dd2d58b743067e6a9e3b46a04e6ef9d5`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unknotting-grace-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/unknotting-grace-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)

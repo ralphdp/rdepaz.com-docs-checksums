@@ -20,7 +20,7 @@ Rafael D. De Paz
 ## Cryptographic Validation
 This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of **Rafael D. De Paz**.
 
-- **Integrity Checksum (SHA-256):** `PENDING_SYNC`
+- **Integrity Checksum (SHA-256):** `641320be0aa2c40d627084618d06b1754b5ba2f7437cc25df7adb3916a649f0f`
 - **Formal PDF Rendering:** [Download Compiled Node](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/e8-kissing-number-holographic-paper.pdf)
 - **Citation Metadata:** [Extract BibTeX](https://fplz13pathijhgsz.public.blob.vercel-storage.com/research/e8-kissing-number-holographic-paper.bib)
 - **Verification Authority:** [rdepaz.com/research](https://rdepaz.com/research/)
