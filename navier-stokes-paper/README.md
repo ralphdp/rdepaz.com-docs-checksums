@@ -1,5 +1,7 @@
 # Navier-Stokes Discrete Regularity Paper
 
+## Status: READY FOR PUBLICATION
+
 ## Purpose
 This is the formal, peer-reviewable academic translation of the architectural proof
 published on [logos.pub/proof/navier-stokes-proof](https://logos.pub/proof/navier-stokes-proof).

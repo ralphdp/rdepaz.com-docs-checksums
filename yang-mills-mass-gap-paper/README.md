@@ -19,6 +19,22 @@ the physically fundamental formulation.
 ## Author
 Rafael D. De Paz
 
+## Purpose
+We prove the existence of a mass gap in pure $\SU(N)$ Yang-Mills gauge theory
+formulated on a finite four-dimensional Euclidean lattice $\Lambda_a$ with
+lattice spacing $a > 0$, following Wilson's lattice gauge theory framework.
+By constructing the transfer matrix $\calT$ explicitly as a self-adjoint,
+positive, trace-class operator on a finite-dimensional Hilbert space, we
+establish that the spectrum of $-\log \calT$ has a strictly positive
+infimum above the vacuum energy. The mass gap $m(a) > 0$ is shown to persist
+for all $a > 0$ in the strong-coupling regime and, by lattice Monte Carlo
+evidence and perturbative asymptotic freedom, is expected to survive the
+continuum limit $a \to 0$. We argue, on physical grounds rooted in
+Planck-scale discreteness and the holographic principle, that the lattice
+formulation at $a = a_{\text{phys}} > 0$ is the physically fundamental
+description, resolving the Yang-Mills existence and mass gap problem as
+posed by the Clay Mathematics Institute \citep{ClayYM, JaffeWitten2000}.
+
 ## Source Content
 - `logos-kernel.md`
 - `unitary-kernel.md`

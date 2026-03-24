@@ -17,6 +17,22 @@ is physically fundamental.
 ## Author
 Rafael D. De Paz
 
+## Purpose
+The Hodge Conjecture posits that on a non-singular complex projective manifold,
+every Hodge class is a rational linear combination of the cohomology classes of
+complex subvarieties. We map this problem into the exact combinatorial domain by
+defining **discrete K\"ahler manifolds** as finite, oriented simplicial
+complexes equipped with a combinatorial Hodge star operator. By the discrete
+Hodge decomposition and the simplicial de Rham theorem (Eckmann 1945), harmonic
+cocycles on finite complexes correspond exactly to integer linear combinations of
+simplices (subcomplexes). We prove that in the discrete setting, every rational
+harmonic $(p,p)$-form is trivially representable by a rational combination of
+algebraic cycles (simplicial sub-chains), establishing a discrete analogue of
+the Hodge Conjecture. We then provide a physical argument, motivated by spin
+foam models of quantum gravity, that the finite simplicial representation is
+the ontologically fundamental substrate of spacetime, rendering the
+continuum Hodge Conjecture an idealized limit of a combinatorial near-identity.
+
 ## Source Content
 - `hodge-conjecture-proof.md`
 

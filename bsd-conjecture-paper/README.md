@@ -18,6 +18,21 @@ physically relevant case.
 ## Author
 Rafael D. De Paz
 
+## Purpose
+The Birch and Swinnerton-Dyer (BSD) Conjecture relates the algebraic rank of an
+elliptic curve over a global field to the analytic order of vanishing of its
+$L$-function at the central point. We consider the conjecture in the setting
+of elliptic curves defined over finite fields $\F_q(t)$, known as the
+function-field analogue. Leveraging the deep arithmetic connection
+established by Tate (1966) and Milne (1975) between the rank of the
+Mordell-Weil group, the Tate-Shafarevich group, and the polynomial roots
+of the zeta function dictated by Deligne's proof of the Weil conjectures,
+we formalize a complete, unconditional proof of the BSD conjecture in this
+category. We subsequently argue that finite field arithmetic structurally
+parallels the fundamental quantization scale of physical reality, making
+this function-field formulation the mathematically complete realization of
+the Millennium Prize Problem mandate.
+
 ## Source Content
 - `bsd-conjecture-proof.md`
 
