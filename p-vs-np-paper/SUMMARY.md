@@ -25,7 +25,7 @@
 "The Thermodynamic Solution to P vs NP (Why computational hardware physically limits logic)"
 
 **The 3-Minute Post Body:**
-"Hey, watch this — P versus NP isn't just an abstract puzzle about writing better sorting algorithms; it's a hard, physical boundary governed by computational thermodynamics. Here is the exact proof of why NP can never physically equal P:
+"P versus NP isn't just an abstract puzzle about writing better sorting algorithms; it's a hard, physical boundary governed by computational thermodynamics. Here is the exact proof of why NP can never physically equal P:
 
 1️⃣ THE ALGORITHMIC LIMIT: P-class polynomials scale gently. Physical hardware atoms easily accommodate the kinetic energy transitions required to compute them.
 2️⃣ THE DIVERGENT SPACE: NP-Complete problems require traversing an exponentially diverging possibility space (like brute-forcing all paths of the Traveling Salesman).

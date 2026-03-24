@@ -25,7 +25,7 @@
 "The Grid Solution to the Navier-Stokes Singularity (Why Fluids Don't Mathematically Explode)"
 
 **The 3-Minute Post Body:**
-"Hey, watch this — The Navier-Stokes Millennium Prize problem asks if fluid equations eventually 'blow up' into unphysical infinite singularities. The answer is absolutely NO, and the math fails because it assumes reality is infinitely smooth. Here is the exact proof:
+"The Navier-Stokes Millennium Prize problem asks if fluid equations eventually 'blow up' into unphysical infinite singularities. The mathematical paradox strictly unravels because it assumes physical reality is infinitely smooth. Here is the formal lattice resolution:
 
 1️⃣ THE INFINITY PARADOX: Continuum mathematics assumes water (or any fluid) can be divided into infinitesimally smaller chunks ($a \to 0$). This is why velocities appear to trend toward infinity.
 2️⃣ THE LATTICE GRID: Liquids don't flow through a perfectly smooth, continuous void. They negotiate a severely physically discrete, quantized spatial atomic lattice.
