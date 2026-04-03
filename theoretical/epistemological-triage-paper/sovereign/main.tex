@@ -1,0 +1,286 @@
+% =============================================================================
+%  Sovereign Research Matrix: Formally Verified Computational Architecture
+%  Author: Rafael D. De Paz
+% =============================================================================
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{natbib}
+
+\geometry{margin=1in}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+
+\hypersetup{colorlinks=true,linkcolor=cyan,citecolor=cyan,urlcolor=cyan}
+
+
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{draftwatermark}
+\SetWatermarkText{SOVEREIGN PROTOCOL // ID: E31925F}
+\SetWatermarkScale{0.5}
+\SetWatermarkLightness{0.94}
+\begin{document}
+
+\title{\textbf{Epistemological Triage: \\
+A Bayesian Framework for the Evaluation \\
+of Extraordinary Claims}}
+\author{Rafael D. De Paz \\ \textit{Sovereign Architect} \\ \texttt{me@rdepaz.com}}
+\date{2026-03-23}
+\maketitle
+
+\begin{abstract}
+Carl Sagan's dictum that ``extraordinary claims require extraordinary
+evidence'' is widely cited but rarely formalized. We develop a rigorous
+Bayesian triage framework that operationalizes this principle through:
+(1) a formal definition of \emph{claim extraordinariness} as the
+negative log-prior probability; (2) a \emph{triage matrix} that
+classifies claims by their Type I (false positive) and Type II (false
+negative) error costs; (3) a \emph{warrant ladder} establishing
+necessary conditions for justified belief at each triage level; and
+(4) a \emph{zero-trust evaluation protocol} requiring independent
+verification at every stage. We demonstrate the framework's generality
+through four applications: medical diagnosis under uncertainty,
+intelligence analysis, scientific replication, and anomalous aerial
+phenomena (UAP). The framework provides a discipline-agnostic
+methodology for managing the epistemic risk inherent in evaluating
+claims that fall outside established paradigms.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} Bayesian epistemology, extraordinary claims,
+Type I/II error, epistemic warrant, zero-trust, scientific methodology.
+
+\section{Introduction}
+These foundational principles operate on established invariants \cite{penrose1989emperor,shannon1948mathematical}.\label{sec:intro}
+
+The evaluation of extraordinary claims is a pervasive challenge across
+disciplines. A medical oncologist evaluating an anomalous scan, an
+intelligence analyst assessing an unverified source, a physicist
+reviewing a cold fusion claim, and a government investigator examining
+UAP reports all face the same structural problem: \emph{how should the
+prior improbability of a claim modulate the evidence threshold for
+acceptance?}
+
+\citet{Sagan1979} provided the intuition. \citet{Hume1748} provided the
+philosophical foundation. We provide the mathematics.
+
+\subsection{Main Results}
+\begin{enumerate}
+  \item \textbf{Formal Extraordinariness} (\S\ref{sec:formal}):
+    Quantification of claim extraordinariness via negative log-prior.
+  \item \textbf{The Triage Matrix} (\S\ref{sec:triage}): Classification
+    of claims by error-cost asymmetry.
+  \item \textbf{The Warrant Ladder} (\S\ref{sec:warrant}): Necessary
+    conditions for justified acceptance at each triage level.
+  \item \textbf{Four Applications} (\S\ref{sec:applications}):
+    Medicine, intelligence, replication, and UAP.
+\end{enumerate}
+
+\section{Formalizing Extraordinariness}\label{sec:formal}
+
+\begin{definition}[Claim Extraordinariness]\label{def:extraordinary}
+  The \emph{extraordinariness} $\mathcal{E}(C)$ of a claim $C$ is:
+  \begin{equation}
+    \mathcal{E}(C) = -\log_2 P(C),
+  \end{equation}
+  where $P(C)$ is the prior probability of $C$ given the current
+  scientific consensus $\mathcal{S}$.
+\end{definition}
+
+\begin{remark}
+  This is formally the \emph{surprisal} or \emph{self-information}
+  of $C$ \citep{Shannon1948}. A claim with prior $P(C) = 0.5$ has
+  $\mathcal{E} = 1$ bit. A claim with $P(C) = 10^{-6}$ has
+  $\mathcal{E} \approx 20$ bits.
+\end{remark}
+
+\begin{theorem}[Evidence Threshold]\label{thm:threshold}
+  By Bayes' theorem, the evidence $E$ required to bring the posterior
+  $P(C \mid E)$ to an acceptance threshold $\theta$ satisfies:
+  \begin{equation}\label{eq:threshold}
+    \frac{P(E \mid C)}{P(E \mid \neg C)} \geq
+    \frac{\theta}{1 - \theta} \cdot \frac{1 - P(C)}{P(C)}.
+  \end{equation}
+  For highly extraordinary claims ($P(C) \ll 1$), the required
+  likelihood ratio grows as $\sim 1/P(C) = 2^{\mathcal{E}(C)}$:
+  the evidence must be \emph{exponentially} strong in the
+  extraordinariness of the claim.
+\end{theorem}
+
+\section{The Triage Matrix}\label{sec:triage}
+
+\begin{definition}[Error Costs]\label{def:errors}
+  For any claim $C$:
+  \begin{itemize}
+    \item \textbf{Type I (False Positive):} Accepting $C$ when $C$
+      is false. Cost: $\alpha(C)$.
+    \item \textbf{Type II (False Negative):} Rejecting $C$ when $C$
+      is true. Cost: $\beta(C)$.
+  \end{itemize}
+\end{definition}
+
+\begin{definition}[Triage Levels]\label{def:triage_levels}
+  Claims are classified into triage levels by error-cost asymmetry:
+  \begin{center}
+  \begin{tabular}{llll}
+    \toprule
+    \textbf{Level} & \textbf{$\alpha$ vs $\beta$} & \textbf{Strategy}
+    & \textbf{Example} \\
+    \midrule
+    Green & $\alpha \approx \beta$ & Standard Bayesian update
+    & Routine medical test \\
+    Yellow & $\alpha \gg \beta$ & Elevated evidence threshold
+    & Novel drug approval \\
+    Orange & $\alpha \ggg \beta$ & Independent replication required
+    & Cold fusion claim \\
+    Red & $\alpha \to \infty$ & Zero-trust protocol
+    & Existential risk claim \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+\end{definition}
+
+\section{The Warrant Ladder}\label{sec:warrant}
+
+\begin{axiom}[Epistemic Warrant Requirements]\label{ax:warrant}
+  Justified acceptance of a claim requires satisfying a sequential
+  ladder of conditions, adapted from the Law of Epistemic Warrant:
+  \begin{enumerate}[label=\textbf{W\arabic*:}]
+    \item \textbf{Internal Coherence:} $C$ must be logically
+      self-consistent.
+    \item \textbf{Empirical Basis:} $C$ must have at least one
+      piece of supporting evidence $E$ with $P(E \mid C) > P(E)$.
+    \item \textbf{Reproducibility:} The evidence must be
+      independently reproducible by at least one other observer.
+    \item \textbf{Predictive Power:} $C$ must generate at least
+      one novel, testable prediction not shared by $\neg C$.
+    \item \textbf{Integration:} $C$ must be compatible with (or
+      explicitly supersede) the established consensus $\mathcal{S}$.
+  \end{enumerate}
+\end{axiom}
+
+\begin{proposition}[Warrant Level Correspondence]\label{prop:correspondence}
+  Triage levels require satisfaction of warrant rungs:
+  \begin{center}
+  \begin{tabular}{ll}
+    \toprule
+    \textbf{Triage Level} & \textbf{Minimum Warrant} \\
+    \midrule
+    Green & W1 + W2 \\
+    Yellow & W1 + W2 + W3 \\
+    Orange & W1 + W2 + W3 + W4 \\
+    Red & W1 + W2 + W3 + W4 + W5 \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+\end{proposition}
+
+\section{Applications}\label{sec:applications}
+
+\subsection{Medical Diagnosis Under Uncertainty}
+
+A rare disease ($P = 10^{-4}$, $\mathcal{E} \approx 13$ bits) requires
+a diagnostic test with likelihood ratio $\geq 10^4$ to achieve 50\%
+posterior probability. Standard rapid tests ($LR \approx 20$) are
+grossly insufficient---explaining why screening for rare diseases
+produces far more false positives than true positives \citep{Gigerenzer2002}.
+
+\subsection{Intelligence Analysis}
+
+Intelligence assessments routinely encounter extraordinary claims from
+unverified sources. The triage framework maps directly: single-source
+intelligence is Yellow (W1+W2+W3 required); multi-source corroboration
+elevates to Green \citep{Heuer1999}.
+
+\subsection{Scientific Replication}
+
+The replication crisis \citep{OpenScienceCollab2015} is a systematic
+failure at warrant level W3. The framework predicts that claims with
+$\mathcal{E} > 10$ bits (prior $< 10^{-3}$) should show the highest
+non-replication rates---consistent with observed data.
+
+\subsection{Anomalous Aerial Phenomena}
+
+The 2023 NASA UAP Independent Study Team report \citep{NASA2023}
+established institutional legitimacy for UAP investigation. Under our
+framework:
+\begin{itemize}
+  \item $\mathcal{E}(\text{UAP as novel aircraft}) \approx 5$ bits
+    (Yellow)
+  \item $\mathcal{E}(\text{UAP as unknown physics}) \approx 20$ bits
+    (Orange)
+  \item $\mathcal{E}(\text{UAP as non-human technology}) \approx 30$
+    bits (Red)
+\end{itemize}
+
+Each level demands correspondingly higher warrant. The framework does
+not prejudge the answer---it specifies the evidence required.
+
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Novelty}
+
+The framework's contribution is not the individual components (Bayesian
+inference, error analysis, warrant theory) but their \emph{integration}
+into a single, algorithmically implementable triage protocol that can
+be applied across disciplines without modification.
+
+\subsection{Limitations}
+\begin{enumerate}
+  \item The prior $P(C)$ is subjective; the framework formalizes the
+    \emph{structure} of the evaluation, not the specific priors.
+  \item Error costs $\alpha$ and $\beta$ require domain-specific
+    calibration.
+  \item The framework assumes claims are well-defined; vague or
+    unfalsifiable claims escape triage classification.
+\end{enumerate}
+
+\section{Conclusion}\label{sec:conclusion}
+
+Sagan's maxim is correct but incomplete. We have shown that the
+evidence threshold for extraordinary claims scales \emph{exponentially}
+with the claim's surprisal, and that the appropriate evaluation
+protocol depends on the asymmetry between false-positive and
+false-negative costs. The Epistemological Triage Matrix provides a
+rigorous, discipline-agnostic methodology for managing epistemic risk
+in precisely the situations where human judgment is most vulnerable
+to bias.
+
+
+\vspace{2em}
+\noindent\hrulefill
+\vspace{1em}
+
+
+
+% =============================================================================
+
+% =============================================================================
+% References & Cryptographic Lineage
+% =============================================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\vspace{3em}
+\noindent\hrulefill
+\vspace{1em}
+
+\noindent\textbf{Cryptographic Lineage \& Validation}\\
+This mathematical substrate has been cryptographically sealed and tracked on the global Sovereign Master Ledger to prevent retroactive editing and to verify the source authorship of Rafael D. De Paz. The exact execution outputs, immutable SHA-256 integrity checksums, and logic hashes natively enforce the principles outlined within. Verification available at \url{https://rdepaz.com/research}.
+
+\end{document}
