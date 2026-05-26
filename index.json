@@ -2,211 +2,267 @@
   {
     "filename": "bsd-conjecture-paper.pdf",
     "hash_algorithm": "SHA-256",
-    "checksum": "946c218837635419c7ab2575f6331c73f4e957fd9037984bed1ac104b1dcd103",
-    "timestamp": "2026-05-06T08:48:58.716Z",
+    "checksum": "beb57138604f03a84ccf7f3337122945f44f5c520374a2584fbbdbf4f0970cfa",
+    "timestamp": "2026-05-22T15:31:49.163Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "chaos-determinism-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "96f501c71ea4c6fe93425c148b04393013561cc282741efd063eb0755f0d4def",
-    "timestamp": "2026-05-06T08:48:59.034Z",
+    "timestamp": "2026-05-19T00:21:31.370Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "cognitive-sovereignty-mesh-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "0d3a9ac37b2e81a8b1cad3bf575371b9573add1056a0dd019c640fa0bdbe374a",
+    "timestamp": "2026-05-19T00:21:31.441Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "collatz-attractor-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "eadb585408092b253c615861ba0a2c4c63e6024aff9806cc9a8bff22c52e385e",
-    "timestamp": "2026-05-06T08:48:59.745Z",
+    "timestamp": "2026-05-19T00:21:31.375Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "computational-theology-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "a12f620a3b8d698b16d2814ada2276bdd9398aa834a52b8a2b3975cee376a255",
-    "timestamp": "2026-05-06T08:49:00.048Z",
+    "timestamp": "2026-05-19T00:21:31.431Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "consciousness-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "7d355196bb7acd2fd5b4a668586241b39782f8a6dce96f3c4fd0b90b8a15a117",
-    "timestamp": "2026-05-06T08:49:00.375Z",
+    "timestamp": "2026-05-19T00:21:31.433Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "continuum-logos-hierarchy-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "6b5fc0209b6a1acf2a432a85b4b120ae300f91ed3ac9b142957f329ca87deb74",
-    "timestamp": "2026-05-06T08:49:00.746Z",
+    "timestamp": "2026-05-19T00:21:31.425Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "cosmological-master-equation-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "6a4425f5cd19d8627979ced7382a8851bddf1542e9f6c3f9ce666e686b6eeb53",
-    "timestamp": "2026-05-06T08:49:01.021Z",
+    "timestamp": "2026-05-19T00:21:31.401Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "cosmological-parsimony-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "72db534816127e1a80f37130505eae4a41fc31e06943989e3e51944a4fb710f1",
-    "timestamp": "2026-05-06T08:49:01.339Z",
+    "timestamp": "2026-05-19T00:21:31.412Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "discrete-frequency-divider-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "a11ac002082c12bb394cad6800419c0d3e2ba742fb0c998ac38a81f0018d73d6",
-    "timestamp": "2026-05-06T08:49:01.631Z",
+    "timestamp": "2026-05-19T00:21:31.397Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "divine-concurrency-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "9b47b5b3f9119990f62c0afa6e5b819c630863769785cac4d288229b85a1d9b2",
-    "timestamp": "2026-05-06T08:49:01.951Z",
+    "timestamp": "2026-05-19T00:21:31.437Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "e8-kissing-number-holographic-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "522424ac11bc7744f2483a233cd27d667ef990c2e7cd3185de354db0efd3cd3b",
-    "timestamp": "2026-05-06T08:49:02.225Z",
+    "timestamp": "2026-05-19T00:21:31.416Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "epistemological-triage-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "b6def7ec73b3b3b6ca1070bdc6f864ebc40b42a3dc132adce6f82297b894d3cf",
-    "timestamp": "2026-05-06T08:49:02.584Z",
+    "timestamp": "2026-05-19T00:21:31.440Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "free-will-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "9f2dd6084358e2f7108ebb0a39734b64f074c8065efd0e7fab91fcae8d319258",
-    "timestamp": "2026-05-06T08:49:02.836Z",
+    "timestamp": "2026-05-19T00:21:31.408Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "generational-lineage-os-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "a9b99a43c9cf2c274a29ce5ed475bc36a8092882c042d578c3a7a85db1eaf6ce",
+    "timestamp": "2026-05-19T00:21:31.377Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "grace-protocol-dual-track-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "b9b7c500c3d6521569a593fcfe60456d9f0a3e3d1d1bd0520f8304bac5f23882",
+    "timestamp": "2026-05-19T00:21:31.392Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "gradient-transport-destiny-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "00df148254f746b9dfb57c73b8262712e5f2174ed1bf7e94209120fa4b946489",
-    "timestamp": "2026-05-06T08:49:03.154Z",
+    "timestamp": "2026-05-19T00:21:31.435Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "hodge-conjecture-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "e49904ee0c0d9f4d9c0e7a7c1c9ce5a6d2195f2237bbe30855008ebab3f20305",
-    "timestamp": "2026-05-06T08:49:03.544Z",
+    "timestamp": "2026-05-19T00:21:31.404Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "information-theoretic-gravity-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "cb2cfa7f1ea8b838b8056003c6c3160ebd22fc57954b32d27045d0e04d15ddab",
-    "timestamp": "2026-05-06T08:49:03.836Z",
+    "timestamp": "2026-05-19T00:21:31.383Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "invariant-destiny-subspace-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "0615afa78fbdb20753e88737f17c56445cf685389a810be274b66d6e8910c76f",
-    "timestamp": "2026-05-06T08:49:04.150Z",
+    "timestamp": "2026-05-19T00:21:31.410Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "isomorphic-hardware-tethers-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "aad10c04c26c0c8c7220a6c2e34cfaedebafc2f36dc0b69c9a183e94275ea38d",
+    "timestamp": "2026-05-19T00:21:31.372Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "multitime-transport-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "72ca124c283c0c88d3e7287d9a793a7b8f5279f22699c84d6d3abda9b7dc0303",
-    "timestamp": "2026-05-06T08:49:04.537Z",
+    "timestamp": "2026-05-19T00:21:31.420Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "navier-stokes-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "8cfd48fe62cdf11a70d5ff3620f741cc846387486b0f3737b2db515294a88bfb",
-    "timestamp": "2026-05-06T08:49:04.967Z",
+    "timestamp": "2026-05-19T00:01:37.300Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "nile-protocol-distributed-grid-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "57d6d334623334082880724eaff68b1dd5e197a6466a99c5dbd4aa7b4e0de53a",
+    "timestamp": "2026-05-19T00:21:31.402Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "o1-validation-schema-caching-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "2a027c2395f28837db2a4ce368ee84655e61cff27d05a051ea33ac4a305d6e53",
+    "timestamp": "2026-05-19T00:21:31.366Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "p-vs-np-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "561f9be1b1fdad909bd7c0c9fcd8a2a90e68dae957fe46749d7c3b16a78839a9",
-    "timestamp": "2026-05-06T08:49:05.230Z",
+    "timestamp": "2026-05-19T00:01:31.611Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "quantum-gravity-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "d76830fee662b6afa8d319eb22b88c2b7f6b8db7c54f6e13eff931d71977327b",
-    "timestamp": "2026-05-06T08:49:05.640Z",
+    "timestamp": "2026-05-19T00:21:31.380Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "resurrection-protocol-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "b44ce42f39e42936a093a8376ae40184141407d1d75914437d1d14a68e6539ce",
-    "timestamp": "2026-05-06T08:49:06.095Z",
+    "timestamp": "2026-05-19T00:21:31.387Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "riemann-hypothesis-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "379ab5a74a9c3cb0ec78a554a9ed41456ebd51371099c13661e67d39b3556b03",
-    "timestamp": "2026-05-06T08:49:06.527Z",
+    "timestamp": "2026-05-19T00:21:31.423Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "simulation-hypothesis-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "90aac608c7603b083748ddaece612975da2d06fb4b71162dba1a86ae6e4fed3a",
-    "timestamp": "2026-05-06T08:49:06.914Z",
+    "timestamp": "2026-05-19T00:21:31.405Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "spectral-parity-clock-cycles-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "15bfb3e8357c0ca76bbdbfb4bd51842bc91c65700c35bcf5c9399dfab8c29105",
+    "timestamp": "2026-05-19T00:21:31.389Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "stochastic-destiny-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "a1e03c9696aae3b1c139d3abf232e1dd0375fede4afc796c8b9c830752bd026f",
-    "timestamp": "2026-05-06T08:49:07.361Z",
+    "timestamp": "2026-05-19T00:21:31.395Z",
+    "status": "READY FOR PUBLICATION"
+  },
+  {
+    "filename": "subtractive-architecture-paper.pdf",
+    "hash_algorithm": "SHA-256",
+    "checksum": "f53c37d90ae5200e3c812e31bcef230708bc798f11027cbb8f6482e99d71ac91",
+    "timestamp": "2026-05-19T00:21:31.414Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "theodicy-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "862f397c876bbbb539678524b799b14e50cd061ecad591e85fac4e6e4ffdd404",
-    "timestamp": "2026-05-06T08:49:07.671Z",
+    "timestamp": "2026-05-19T00:21:31.427Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "thermodynamic-morality-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "aac4bf425b96cc538e109584cd6838057951e17959e98529f6c5029614efe844",
-    "timestamp": "2026-05-06T08:49:07.896Z",
+    "timestamp": "2026-05-19T00:21:31.418Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "unitary-singularity-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "c2a306a813cb536586c132cdff4b47d8eeaff5a343cdf66019a8630dbf52d33e",
-    "timestamp": "2026-05-06T08:49:08.268Z",
+    "timestamp": "2026-05-19T00:21:31.399Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "unknotting-grace-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "8e6d326dc4d16dde49273a2b991a0f72e0270a45a7d449bcc21acc8b0c040810",
-    "timestamp": "2026-05-06T08:49:08.606Z",
+    "timestamp": "2026-05-19T00:21:31.429Z",
     "status": "READY FOR PUBLICATION"
   },
   {
     "filename": "yang-mills-mass-gap-paper.pdf",
     "hash_algorithm": "SHA-256",
     "checksum": "f8722ce92cd1ebf8855e30bdd7d859b88d6b4281fb5259409b3019f983546e74",
-    "timestamp": "2026-05-06T08:49:08.998Z",
+    "timestamp": "2026-05-19T00:21:31.385Z",
     "status": "READY FOR PUBLICATION"
   }
 ]

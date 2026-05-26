@@ -8,3 +8,6 @@
 *.synctex.gz
 *.toc
 .DS_Store
+audit.js
+fix-papers.js
+
